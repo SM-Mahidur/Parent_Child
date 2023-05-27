@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+    .container h2{
+    text-align: center;
+    margin: 10px 0px;
+    background: #9DB2BF;
+    display: inline-block;
+    margin-left: 19%;
+}
+
+.main_house{
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    background-color:#4942E4;
+    border-radius: 13.7%;
+}
+.bonton{
+        width: 200px;
+        height: 200px;
+        background: #8696FE;
+}
+.child_one{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    border: 2px solid gray;
+    border-radius: 50%;
+}
+.child_one h3{
+            text-align: center;
+            margin-top: 45%;
+}
+.child_one:hover{
+            color: #0C134F;
+            background-color: #025464;
+            cursor: pointer;
+}
+.child_two{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    border: 2px solid gray;
+    border-radius: 50%;
+}
+
+
+.child_two h3{
+    text-align: center;
+    margin-top: 45%;
+}
+
+.child_two:hover{
+    color: #0C134F;
+    background-color: #025464;
+    cursor: pointer;
+}
+
+.child_three{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    border: 2px solid gray;
+    border-radius: 50%;
+}
+
+.child_three h3{
+    text-align: center;
+    margin-top: 45%;
+}
+
+.child_three:hover{
+    color: #0C134F;
+    background-color: #025464;
+    cursor: pointer;
+}
+
+
+.child_four{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    border: 2px solid gray;
+    border-radius: 50%;
+}
+
+.child_four h3{
+    text-align: center;
+    margin-top: 45%;
+}
+
+.child_four:hover{
+    color: #0C134F;
+    background-color: #025464;
+    cursor: pointer;
+}
+
+.child_five {
+    position: absolute;
+    top: 33%;
+    left: 38%;
+    color: white;
+    text-align: center;
+}
+
+.child_five{
+    width: 200px;
+    height: 200px;
+}
+.child_five h3{
+    font-weight: bold;
+    text-shadow: 1px 1px rgb(187, 29, 37);
+    cursor: pointer;
+}
+.child_five img{
+                width: 200px;
+                height: 200px;
+                border: 2px solid #4942E4;
+                border-radius: 3%;
+                opacity: 0.1;
+
+}
+
+.child_five img:hover{
+            opacity: 1;
+            cursor: pointer;
+}
+.child_service{
+    position: absolute;
+    top: 10%;
+    left: 38%;
+    color: white;
+    border: 2px dotted #8696FE;
+    border-radius: 1%;
+    background: #4942E4;
+    box-sizing: border-box;
+
+}
+.child_service h2{
+        margin: 5px;
+}
+.child_service h2:hover{
+            color: pink;
+            background: red;
+            cursor: pointer;
+}
+.contact{
+    position: absolute;
+    bottom: 12%;
+    left: 42%;
+    color: white;
+}
+
+.contact h2{
+    padding: 15px;
+    background-color: #6C9BCF;
+    border-radius: 12%;
+}
+.contact h2:hover{
+            color:#a50b0b;
+            background:#0853a8;
+            transition:.5s;
+            cursor: pointer;
+}
